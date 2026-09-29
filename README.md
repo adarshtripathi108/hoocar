@@ -1,6 +1,6 @@
 # Hoocar
 
-Hoocar is a learning project for a peer-to-peer car rental marketplace in India. This repository began as a static landing-page prototype. The existing design is preserved in `client/` and now runs with Vite and React. The booking, authentication, payment, verification and host features shown in the mockup are **not implemented**. Car listings and trust figures in the prototype are sample content, not real marketplace data.
+Hoocar is a learning project for a peer-to-peer car rental marketplace in India. This repository began as a static landing-page prototype. The existing design is copied into `client/` and now runs with Vite and React. The original root prototype files are kept as a backup while this transition is checked. The booking, authentication, payment, verification and host features shown in the mockup are **not implemented**. Car listings and trust figures in the prototype are sample content, not real marketplace data.
 
 ## Stack
 
@@ -32,10 +32,11 @@ To build the frontend, run `cd client && npm run build`. There is no production 
 ## Structure
 
 ```text
-client/             Existing landing page, converted to a React/Vite app
+client/             Copy of the existing landing page, converted to React/Vite
   src/App.jsx       Existing interface and sample car data
   src/styles.css    Existing styles
   src/main.jsx      React entry point
+index.html, src/     Original prototype files kept for reference
 server/             Express API; optional MongoDB connection
   src/index.js      Hello-world endpoint and startup
   .env.example      Local environment template
